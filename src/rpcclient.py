@@ -7,3 +7,4 @@ with xmlrpc.client.ServerProxy('http://localhost:8000') as s:
 
 # Print list of available methods
 print(s.system.listMethods())
+input("Press Enter to stop...")
