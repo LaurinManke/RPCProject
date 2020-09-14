@@ -19,6 +19,10 @@ def adder_function(x,y):
     return x + y
 server.register_function(adder_function, 'add')
 
+def hashFunction():
+    return
+server.register_function(hashFunction, 'hashFunc')
+
 # Register an instance; all the methods of the instance are
 # published as XML-RPC methods (in this case, just 'div').
 class MyFuncs:
