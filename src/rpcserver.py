@@ -5,6 +5,7 @@ import random
 
 hash_object_server = hashlib.md5(b'Hello World')
 random_number_server = float
+
 # Restrict to a particular path.
 class RequestHandler(SimpleXMLRPCRequestHandler):
     rpc_paths = ('/RPC2',)

@@ -11,7 +11,6 @@ with xmlrpc.client.ServerProxy('http://localhost:8000') as s:
     print(random_number_client)
     print(hashFunction())
     print(s.hashFunc())
-    print(s.rnd())
 
 # Print list of available methods
 print(s.system.listMethods())
